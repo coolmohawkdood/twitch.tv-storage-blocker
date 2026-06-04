@@ -13,6 +13,9 @@ Blocks all Twitch client-side storage (LocalStorage, IndexedDB, Cache API) to pr
 
 3. Your userscript manager will prompt you to install the script.
 
+⚠️ **PROTIP:** Make sure this script is at the very top of your userscript manager's list.
+Otherwise Twitch may initialize storage before the script blocks it. ⚠️
+
 ## What It Blocks
 
 - LocalStorage (cleared and disabled)
